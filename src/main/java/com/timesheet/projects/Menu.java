@@ -43,7 +43,7 @@ public class Menu {
 
                      TimesheetProjects insertproject = new TimesheetProjects(userId,projectcode,projectName,projectCreated,status,totalTasks,tasksCompleted,deadline);
                      System.err.println(insertproject);
-                     TimesheetTaskDAO.addProject(insertproject.userId,insertproject.projectcode,insertproject.projectName, insertproject.projectCreated, insertproject.status, insertproject.totalTasks, insertproject.tasksCompleted, insertproject.deadline);
+                     TimesheetTaskDAO.addProject(insertproject.userId,insertproject.projectcode,insertproject.projectName, insertproject.projectCreated, insertproject.status, insertproject.totalTasks, insertproject.tasksCompleted, insertproject.deadline, userId);
                      
                     break;
                 case 2:
