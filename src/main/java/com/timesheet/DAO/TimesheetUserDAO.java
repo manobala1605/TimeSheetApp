@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 import com.timesheet.projects.Menu;
-import com.timesheetapp.users.TimesheetUser;
+import com.timesheet.users.TimesheetUser;
 
 public class TimesheetUserDAO {
     

@@ -3,7 +3,7 @@ package com.timesheet.testusers;
 import java.util.Scanner;
 
 import com.timesheet.DAO.TimesheetUserDAO;
-import com.timesheetapp.users.TimesheetUser;
+import com.timesheet.users.TimesheetUser;
 
 public class TimesheetUserTest {
     public static void main(String[] args) throws Exception{
